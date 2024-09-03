@@ -1,7 +1,5 @@
 # Movie Recommendation System with Data Analysis
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Description
 
 This is a Movie Recommendation System that uses collaborative filtering techniques to provide personalized movie recommendations based on user ratings and preferences. The system also includes data cleaning, preprocessing, and exploratory data analysis (EDA) to gain insights into the dataset.
@@ -30,6 +28,35 @@ pip install pandas numpy matplotlib seaborn surprise
 
 3. Run the Jupyter Notebook or Python script to perform data cleaning, preprocessing, analysis, and train the recommendation model.
 
+Memory updated
+To create a detailed description for your GitHub project on a Movie Recommendation System with Data Analysis, you can use the following template:
+
+Movie Recommendation System with Data Analysis
+Overview
+This project is a comprehensive Movie Recommendation System that leverages collaborative filtering techniques to provide personalized movie suggestions to users. The system uses data analysis and machine learning algorithms to predict user preferences based on their historical ratings and movie interaction data.
+
+Features
+Collaborative Filtering: Uses collaborative filtering methods (such as Matrix Factorization using SVD) to predict user ratings for movies they haven't watched yet.
+Data Analysis: Performs exploratory data analysis (EDA) to understand user behavior, movie trends, and rating distributions.
+Model Evaluation: Evaluates the recommendation model using metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) to ensure accuracy and reliability.
+User-Friendly Interface: Provides an intuitive interface for users to view their top recommended movies.
+Data
+The dataset used in this project includes:
+
+User Data: Information about users including their unique user IDs.
+Movie Data: Details about movies such as movie IDs, titles, genres, etc.
+Ratings Data: User-movie interactions, containing user ratings for different movies.
+
+##Requirements
+To run this project, you need the following libraries and tools:
+
+Python 3.x
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib (for data visualization)
+seaborn (for data visualization)
 ## Usage
 
 To get movie recommendations, users can input their preferences, and the system will return a list of recommended movies based on their ratings and other users' similar preferences.
@@ -61,18 +88,6 @@ The system provides movie recommendations for each user in the test set. The top
 ## Contributing
 
 Contributions to this project are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Contact
-
-For any inquiries or collaborations, please feel free to contact me:
-
-- Name: HAJAR BENJAT
-- Email: hajarbenjat@gmail.com
-- LinkedIn: https://www.linkedin.com/in/hajar-benjat-a92132106/
 
 
 
