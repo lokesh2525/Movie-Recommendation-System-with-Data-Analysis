@@ -33,12 +33,12 @@ pip install pandas numpy matplotlib seaborn surprise
 To run this project, you need the following libraries and tools:
 
 Python 3.x
-pandas
-numpy
-scikit-learn
-scipy
-matplotlib (for data visualization)
-seaborn (for data visualization)
+,pandas
+,numpy
+,scikit-learn
+,scipy
+,matplotlib (for data visualization)
+,seaborn (for data visualization)
 ## Usage
 
 To get movie recommendations, users can input their preferences, and the system will return a list of recommended movies based on their ratings and other users' similar preferences.
